@@ -1,8 +1,8 @@
-# King Chicken
+# 🍗 King Chicken
 
 Aplikasi Flutter untuk pemesanan makanan dan minuman di King Chicken Restaurant.
 
-## Tentang Project
+## 📌 Tentang Project
 
 King Chicken adalah aplikasi mobile yang memungkinkan pengguna untuk:
 - Melihat menu makanan, minuman, dan paket
@@ -10,7 +10,7 @@ King Chicken adalah aplikasi mobile yang memungkinkan pengguna untuk:
 - Melakukan pemesanan dan pembayaran
 - Melihat promo yang tersedia
 
-## Fitur
+## ✨ Fitur
 
 - 🍗 Menu ayam dengan berbagai varian
 - 🍔 Menu burger dan makanan lainnya
@@ -18,9 +18,28 @@ King Chicken adalah aplikasi mobile yang memungkinkan pengguna untuk:
 - 🛒 Keranjang belanja interaktif
 - 💳 Sistem pembayaran dengan QR code
 - 🎉 Halaman promo dan diskon
+- 📍 Lokasi otomatis (Geolocator + Reverse Geocode Nominatim)
+- 📷 Feedback foto menggunakan kamera
 - 📱 Desain responsif dengan Material Design
 
-## Cara Menjalankan Project
+---
+
+## 🎨 Desain Figma
+Berikut adalah link desain UI/UX aplikasi King Chicken yang dibuat menggunakan Figma:  
+🔗 https://www.figma.com/design/PR3tJuIaOukpYZwNRaGBGU/Untitled?node-id=0-1&t=NlagsB97Dslk8pRH-1
+
+---
+
+## 🏗️ Softcopy Rancangan Arsitektur Sistem
+Dokumen laporan dan rancangan arsitektur sistem (UML, analisis, dan perancangan) dapat diakses melalui Google Docs:  
+📄 https://docs.google.com/document/d/1cSOcH5sZe8wLwdQhW9QPd5M0JMTTkgmn3CTdZ7JlhCQ/edit?usp=sharing
+
+📂 File softcopy juga tersedia pada folder repository:  
+- [docs](docs/)
+
+---
+
+## 🚀 Cara Menjalankan Project
 
 ### Prasyarat
 
@@ -33,72 +52,5 @@ King Chicken adalah aplikasi mobile yang memungkinkan pengguna untuk:
 
 1. Clone repository ini:
 ```bash
-git clone <repository-url>
-cd king_chicken
-```
-
-2. Install dependencies:
-```bash
-flutter pub get
-```
-
-3. Jalankan aplikasi:
-```bash
-flutter run
-```
-
-### Build untuk Produksi
-
-**Android APK:**
-```bash
-flutter build apk
-```
-
-**iOS:**
-```bash
-flutter build ios
-```
-
-## Struktur Project
-
-```
-lib/
-├── constants/          # Warna dan routes
-├── models/            # Data models
-├── screens/           # Halaman aplikasi
-├── services/          # Business logic
-├── widgets/           # Reusable widgets
-└── main.dart          # Entry point
-```
-
-## Dependencies Utama
-
-- `provider`: State management
-- `carousel_slider`: Slider untuk gambar
-- `qr_flutter`: Generate QR code
-
-## Testing
-
-Jalankan semua test:
-```bash
-flutter test
-```
-
-Jalankan test spesifik:
-```bash
-flutter test test/widget_test.dart
-```
-
-## Linting & Formatting
-
-```bash
-# Analisis kode
-flutter analyze
-
-# Format kode
-dart format .
-```
-
-## Screenshots
-
-Aplikasi ini memiliki desain yang telah dirancang di folder `base_design/` sebagai referensi UI/UX.
+git clone https://github.com/adeladeandra/king-kichen-uas.git
+cd king-kichen-uas
